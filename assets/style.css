@@ -1,0 +1,2050 @@
+@font-face {
+	font-family: "Montserrat Light";
+	src: url(../assets/fonts/Montserrat-Light.otf);
+}
+
+@font-face {
+	font-family: "Montserrat Regular";
+	src: url(../assets/fonts/Montserrat-Regular.otf);
+}
+
+@font-face {
+	font-family: "Montserrat SemiBold";
+	src: url(../assets/fonts/Montserrat-SemiBold.otf);
+}
+
+@font-face {
+	font-family: "Purple Smile";
+	src: url(../assets/fonts/Purple\ Smile.ttf);
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body {
+	width: 100%;
+	 overflow-x: hidden; 
+	box-sizing: border-box;
+	background-color: #f5f7f9 !important;
+}
+
+body form {
+	background-color: white !important;
+}
+
+.logoo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logoo img {
+	width: 200px;
+	margin-top: 50px;
+}
+
+.InputGroup label .dog-img-1 {
+	display: none;
+}
+
+.InputGroup label .dog-img-2 {
+	display: block;
+}
+
+.InputGroup label .cat-img-1 {
+	display: block;
+}
+
+.InputGroup label .cat-img-2 {
+	display: none;
+}
+
+.InputGroup label .grom-img-1 {
+	display: block;
+}
+
+.InputGroup label .grom-img-2 {
+	display: none;
+}
+
+.InputGroup label .boarding-img-1 {
+	display: block;
+}
+
+.InputGroup label .boarding-img-2 {
+	display: none;
+}
+
+.InputGroup label .daycare-img-1 {
+	display: block;
+}
+
+.InputGroup label .daycare-img-2 {
+	display: none;
+}
+
+/* achor tags */
+.InputGroup a .grom-img-1 {
+	display: block;
+}
+
+.InputGroup a .grom-img-2 {
+	display: none;
+}
+
+.InputGroup a .boarding-img-1 {
+	display: block;
+}
+
+.InputGroup a .boarding-img-2 {
+	display: none;
+}
+
+.InputGroup a .daycare-img-1 {
+	display: block;
+}
+
+.InputGroup a .daycare-img-2 {
+	display: none;
+}
+
+.radioOption-Item label .male-img-1 {
+	display: block;
+	padding: 10px !important;
+}
+
+.radioOption-Item label .male-img-2 {
+	display: none;
+}
+
+.radioOption-Item label .female-img-1 {
+	display: block;
+}
+
+.radioOption-Item label .female-img-2 {
+	display: none;
+}
+
+.pet-buttons a::before {
+	/* content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 35px;
+    width: 95%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+    box-shadow: 0px 5px 12.09px 0.91px rgba(71, 51, 127, 0.11);
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    top: 0;
+    margin: 0 auto;
+    background: #fff;
+    border: 2px solid #fdbf14;
+    border-radius: 10px 10px 20px 20px;
+   z-index: -1; */
+}
+
+.groom-btns {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	margin-top: 25px;
+}
+
+.groom-btns a {
+	color: #fabd36;
+	border: 2px solid #fabd36;
+	padding: 4px 29px;
+	font-weight: 700;
+}
+
+:root {
+	--color-black: #232323;
+	--color-pink: #ff6393;
+	--color-dark-pink: #df4775;
+	--color-purple: #342a47;
+	--color-blue: deepskyblue;
+	--color-gray: #525252;
+	--color-green: #bbe187;
+
+	--transition-fast: 0.1s;
+}
+
+.InputGroup {
+	display: flex;
+	/* height: 80px;
+    width: 400px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	margin-top: 25px;
+}
+
+.InputGroup label {
+	display: flex;
+	align-items: center !important;
+	gap: 5px;
+	font-family: "Montserrat Regular";
+	font-weight: 500;
+}
+
+.InputGroup label img {
+	width: 28px;
+}
+
+.InputGroup a {
+	display: flex;
+	align-items: center !important;
+	gap: 5px;
+	font-family: "Montserrat Regular";
+	font-weight: 500;
+	vertical-align: middle;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	cursor: pointer;
+	/* background-color: #ffffff; */
+	border: 2px solid #fabd36;
+	color: #fabd36;
+	padding: 5px 31px;
+	/* border-radius: 6px; */
+	transition: color --transition-fast ease-out,
+		background-color --transition-fast ease-in;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	/* margin-right: 8px; */
+	font-size: 18px;
+	padding: 5px 5px !important;
+	font-size: 13px !important;
+}
+
+.InputGroup a:hover {
+	text-decoration: none;
+}
+
+.InputGroup a:active {
+	text-decoration: none;
+}
+
+.InputGroup a img {
+	width: 28px;
+}
+
+.InputGroup a .daycare-img-1 {
+	width: 23px;
+}
+
+/**
+    * 1. Hides the input from view
+    * 2. Ensures the element does not consume any space
+    */
+
+input[type="radio"] {
+	/* visibility: hidden; */
+	/* 1 */
+	height: 0;
+	/* 2 */
+	width: 0;
+	/* 2 */
+
+}
+
+label {
+	display: flex;
+	/* flex: auto; */
+	vertical-align: middle;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	cursor: pointer;
+	/*background-color: #ffffff;*/
+	/* border: 2px solid #fabd36; */
+	color: #fabd36;
+	padding: 5px 31px;
+	/* border-radius: 6px; */
+	transition: color --transition-fast ease-out,
+		background-color --transition-fast ease-in;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	/* margin-right: 8px; */
+	font-size: 18px;
+}
+
+label:last-of-type {
+	margin-right: 0;
+}
+
+input[type="radio"]:checked+label {
+	/* background-color: #ffffff; */
+	color: #ffffff;
+}
+
+input[type="radio"]:hover:not(:checked)+label {
+	background-color: #fabd36;
+	color: #ffffff;
+}
+
+.head-img-shape {
+	position: relative;
+}
+
+.head-img-shape::after {
+	content: url(../assets/img/shape/top-shape-2.png);
+	position: absolute;
+	/* background: url(../assets/img/shape/top-shape.png); */
+	top: 0;
+	right: 0;
+	/* height: 35px;
+    width: 95%; */
+	/* z-index: -1; */
+	/* width: 100%; */
+}
+
+.pet-buttons label {
+	background-color: #ffffff;
+	background: url(../assets/img/shape/shape-4.png) !important;
+	border: none;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	background-size: 153px !important;
+	padding: 39px;
+	font-family: "Purple Smile";
+	font-weight: 500;
+}
+
+.pet-buttons input[type="radio"]:checked+label {
+	background: url(../assets/img/shape/shape-5.png) !important;
+	/* color: #ffffff; */
+	border: none;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	background-size: 153px !important;
+	padding: 39px;
+}
+
+.pet-buttons input[type="radio"]:hover:not(:checked)+label {
+	background: url(../assets/img/shape/shape-5.png) !important;
+	/* color: #ffffff; */
+	border: none;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	background-size: 153px !important;
+	padding: 39px;
+	color: #fff;
+}
+
+.pet-buttons input[type="radio"]:checked+label .dog-img-2 {
+	display: none;
+}
+
+.pet-buttons input[type="radio"]:checked+label .dog-img-1 {
+	display: block;
+}
+
+.pet-buttons input[type="radio"]:checked+label .cat-img-2 {
+	display: block;
+}
+
+.pet-buttons input[type="radio"]:checked+label .cat-img-1 {
+	display: none;
+}
+
+.InputGroup input[type="radio"]:checked+label .grom-img-1 {
+	display: none;
+}
+
+.InputGroup input[type="radio"]:checked+label .grom-img-2 {
+	display: block;
+}
+
+.InputGroup input[type="radio"]:checked+label .boarding-img-1 {
+	display: none;
+}
+
+.InputGroup input[type="radio"]:checked+label .boarding-img-2 {
+	display: block;
+}
+
+.InputGroup input[type="radio"]:checked+label .daycare-img-1 {
+	display: none;
+}
+
+.InputGroup input[type="radio"]:checked+label .daycare-img-2 {
+	display: block;
+}
+
+.InputGroup a:hover {
+	background: #fabd36;
+	color: #fff;
+}
+
+.btn-active {
+	background: #fabd36;
+	color: #fff !important;
+}
+
+/* anchor */
+.InputGroup a:hover .grom-img-1 {
+	display: none;
+}
+
+.InputGroup a:hover .grom-img-2 {
+	display: block;
+}
+
+.InputGroup a:hover .boarding-img-1 {
+	display: none;
+}
+
+.InputGroup a:hover .boarding-img-2 {
+	display: block;
+}
+
+.InputGroup a:hover .daycare-img-1 {
+	display: none;
+}
+
+.InputGroup a:hover .daycare-img-2 {
+	display: block;
+	width: 23px;
+}
+
+/* end */
+
+.radioOption-Item input[type="radio"]:checked+label .male-img-1 {
+	display: none;
+}
+
+.radioOption-Item input[type="radio"]:checked+label .male-img-2 {
+	display: block;
+	padding: 10px;
+}
+
+.radioOption-Item input[type="radio"]:checked+label .female-img-1 {
+	display: none;
+}
+
+.radioOption-Item input[type="radio"]:checked+label .female-img-2 {
+	display: block;
+}
+
+/* hover */
+.pet-buttons input[type="radio"]:hover:not(:checked)+label .dog-img-2 {
+	display: none;
+}
+
+.pet-buttons input[type="radio"]:hover:not(:checked)+label .dog-img-1 {
+	display: block;
+}
+
+.pet-buttons input[type="radio"]:hover:not(:checked)+label .cat-img-2 {
+	display: block;
+}
+
+.pet-buttons input[type="radio"]:hover:not(:checked)+label .cat-img-1 {
+	display: none;
+}
+
+.InputGroup input[type="radio"]:hover:not(:checked)+label .grom-img-1 {
+	display: none;
+}
+
+.InputGroup input[type="radio"]:hover:not(:checked)+label .grom-img-2 {
+	display: block;
+}
+
+.InputGroup input[type="radio"]:hover:not(:checked)+label .boarding-img-1 {
+	display: none;
+}
+
+.InputGroup input[type="radio"]:hover:not(:checked)+label .boarding-img-2 {
+	display: block;
+}
+
+.InputGroup input[type="radio"]:hover:not(:checked)+label .daycare-img-1 {
+	display: none;
+}
+
+.InputGroup input[type="radio"]:hover:not(:checked)+label .daycare-img-2 {
+	display: block;
+}
+
+.radioOption-Item input[type="radio"]:hover:not(:checked)+label .male-img-1 {
+	display: none;
+}
+
+.radioOption-Item input[type="radio"]:hover:not(:checked)+label .male-img-2 {
+	display: block;
+}
+
+.radioOption-Item input[type="radio"]:hover:not(:checked)+label .female-img-1 {
+	display: none;
+}
+
+.radioOption-Item input[type="radio"]:hover:not(:checked)+label .female-img-2 {
+	display: block;
+}
+
+.id-sec {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #fcc832;
+	padding: 23px 24px 23px 24px;
+	margin-top: 20px;
+}
+
+.id-sec ::placeholder {
+	color: #cdced1;
+	opacity: 1;
+	/* Firefox */
+	font-weight: 300;
+}
+
+.id-sec label {
+	background: none;
+	border: none;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 500;
+	font-family: "Montserrat Regular";
+}
+
+.id-sec input[type="text"] {
+	background: #f5f7f9;
+	border: none;
+	padding: 13px;
+	font-size: 19px;
+	font-family: "Montserrat Regular";
+	color: #8f8f8f;
+}
+
+.form-dtls {
+	background: #fcbf13;
+	width: 100%;
+}
+
+/* image upload */
+
+.img-upload label {
+	/* display: block; */
+	/* max-width: 200px; */
+	margin: 0 auto 15px;
+	text-align: center;
+	word-wrap: break-word;
+	color: #1a4756;
+	background: none;
+}
+
+.img-upload .hidden,
+#uploadImg:not(.hidden)+label {
+	display: none;
+}
+
+.img-upload #file {
+	/* display: none; */
+	/*width: 0px;*/
+	opacity:0;
+	margin-top: -50px;
+	/* margin: 0 auto; */
+	/* position: absolute;*/
+	/*top: 75%;*/
+	/*left: 55%;*/
+	/*transform: translate(-50%, -50%);*/
+}
+
+.per_profile_wrapper {
+	position: absolute;
+	top: 89%;
+	left: 56%;
+	transform: translate(-50%, -50%);
+	/* display: flex; */
+	/* align-items: center; */
+	/* justify-content: center; */
+	width: 36%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.img-upload #file1 {
+	/*display: none;*/
+	/*width:0px;*/
+	/*margin-top: -50px;*/
+	opacity:0;
+}
+
+.img-upload #upload {
+	display: block;
+	padding: 10px 25px;
+	border: 0;
+	margin: 0 auto;
+	font-size: 15px;
+	letter-spacing: 0.05em;
+	cursor: pointer;
+	background: #216e69;
+	color: #fff;
+	outline: none;
+	transition: 0.3s ease-in-out;
+}
+
+.img-upload #upload:hover,
+.img-upload #upload:focus {
+	background: #1aa39a;
+}
+
+.img-upload #upload:active {
+	background: #13d4c8;
+	transition: 0.1s ease-in-out;
+}
+
+.img-upload img {
+	display: block;
+	margin: 33px auto 15px;
+	width: 178px;
+}
+
+.form-feilds {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	align-items: center;
+	margin-bottom: 18px;
+	flex-wrap: wrap;
+}
+
+.form-feilds label {
+	background: none;
+	border: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	text-align: left;
+	width: 11%;
+	font-family: "Montserrat Regular";
+}
+
+.form-feilds input[type="text"] {
+	background: #f5f7f9;
+	border: none;
+	color: #8f8f8f;
+	padding: 6px 15px;
+	font-size: 19px;
+	font-family: 'Montserrat Light';
+}
+
+/* image radio buttons */
+
+div.radio-with-Icon {
+	display: block;
+}
+
+div.radio-with-Icon p.radioOption-Item {
+	display: inline-block;
+	/* width: 100px;
+  height: 100px; */
+	box-sizing: border-box;
+	/* margin: 25px 15px; */
+	border: none;
+}
+
+div.radio-with-Icon p.radioOption-Item label {
+	display: flex;
+	gap: 5px;
+	width: 100%;
+	color: #ffffff;
+	/* background: #f5f7f9; */
+	cursor: pointer;
+	/* opacity: .8; */
+	transition: none;
+	font-size: 13px;
+	text-align: center;
+	margin: 0 !important;
+	position: relative;
+}
+
+div.radio-with-Icon p.radioOption-Item label img {
+	width: 42px;
+	padding: 12px 12px;
+	/*border-radius: 50%;*/
+	position: relative;
+	z-index: 999999999999999999999999;
+	/* background: #f5f7f9; */
+}
+
+div.radio-with-Icon p.radioOption-Item label span {
+	color: #fff;
+	font-size: 23px;
+	font-weight: 500;
+}
+
+div.radio-with-Icon p.radioOption-Item:hover label::after,
+div.radio-with-Icon p.radioOption-Item:focus label::after,
+div.radio-with-Icon p.radioOption-Item:active label::after {
+	opacity: 0.5;
+	background-color: #65c4af;
+	color: #fff;
+	margin: 0 !important;
+}
+
+div.radio-with-Icon p.radioOption-Item label::after,
+div.radio-with-Icon p.radioOption-Item label:after,
+div.radio-with-Icon p.radioOption-Item label::before,
+div.radio-with-Icon p.radioOption-Item label:before {
+	/* opacity: 0 !important; */
+	width: 0 !important;
+	height: 0 !important;
+	margin: 0 !important;
+}
+
+div.radio-with-Icon p.radioOption-Item label::after {
+	content: "";
+	width: 41px !important;
+	height: 41px !important;
+	background: #ffffff;
+	position: absolute;
+	z-index: 99999999;
+	border-radius: 50%;
+	left: 32px;
+}
+
+div.radio-with-Icon p.radioOption-Item label i.fa {
+	display: block;
+	font-size: 50px;
+}
+
+div.radio-with-Icon p.radioOption-Item input[type="radio"] {
+	opacity: 0 !important;
+	width: 0 !important;
+	height: 0 !important;
+}
+
+div.radio-with-Icon p.radioOption-Item input[type="radio"]:active~label {
+	opacity: 1;
+}
+
+div.radio-with-Icon p.radioOption-Item input[type="radio"]:checked~label::after {
+	opacity: 1;
+	border: none;
+	background-color: #65c4af;
+	color: #fff;
+}
+
+div.radio-with-Icon p.radioOption-Item input[type="radio"]:hover,
+div.radio-with-Icon p.radioOption-Item input[type="radio"]:focus,
+div.radio-with-Icon p.radioOption-Item input[type="radio"]:active {
+	margin: 0 !important;
+}
+
+div.radio-with-Icon p.radioOption-Item input[type="radio"]+label:before,
+div.radio-with-Icon p.radioOption-Item input[type="radio"]+label:after {
+	margin: 0 !important;
+}
+
+.form-rabies {
+	background: #fcc832;
+	margin-top: -19px;
+}
+
+.rab-vac-sec {
+	display: flex;
+	justify-content: center;
+}
+
+.rab-vac-sec h3 {
+	color: #fff !important;
+	font-family: "Montserrat Regular" !important;
+	font-size: 22px !important;
+}
+
+.duration-sec .rab-checkbox h3 {
+	color: #fff !important;
+	font-family: "Montserrat Regular" !important;
+	font-size: 22px !important;
+}
+
+.rab-checkbox label {
+	background: transparent;
+	border: none;
+	color: #fff;
+	font-size: 21px;
+	margin-right: 10px;
+	font-family: "Montserrat Light";
+	font-weight: 400;
+}
+
+.opacity-0{
+	opacity: 0;
+}
+
+/* .chb.newChb {
+	 visibility: hidden;
+	position: absolute;
+	clip: rect(0 0 0 0);
+	pointer-events: none;
+	opacity: 0;
+} */
+
+
+
+.chb+label {
+	position: relative;
+	padding-right: 20px;
+}
+
+.chb-1+label::before {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background-color: transparent;
+	border: 2px solid #ffffff;
+	border-radius: 3px;
+	content: "";
+	top: 7px;
+	left: -28px;
+	text-align: center;
+	/* padding-bottom: 5px; */
+	/* font-size: 11px; */
+	/* text-align: center; */
+	/* font-weight: bolder; */
+}
+
+.chb-1:checked+label::before {
+	color: white;
+	content: "\2713";
+	font-weight: 900;
+	background-color: #65c4af;
+	box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.chb-2+label::before {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background-color: transparent;
+	border: 2px solid #ffffff;
+	border-radius: 3px;
+	content: "";
+	top: 7px;
+	left: -28px;
+	/* padding-bottom: 5px; */
+	/* font-size: 11px; */
+	text-align: center;
+	/* font-weight: bolder; */
+}
+
+.chb-2:checked+label::before {
+	color: white;
+	content: "\2713";
+	font-weight: 900;
+	background-color: #65c4af;
+	box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.chb-3+label::before {
+	position: absolute;
+	width: 33px;
+	height: 33px;
+	background-color: transparent;
+	border: 2px solid #ffffff;
+	border-radius: 3px;
+	content: "";
+	top: 5px;
+	left: -28px;
+	/* padding-bottom: 5px; */
+	/* font-size: 11px; */
+	/* text-align: center; */
+	/* font-weight: bolder; */
+}
+
+.chb-3:checked+label::before {
+	color: white;
+	content: "\2713";
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+	font-weight: bolder;
+}
+
+.vac-date-div {
+	display: flex;
+	justify-content: space-between;
+	border: 3px solid white;
+	flex-wrap: wrap;
+	/* margin-top: 8px; */
+}
+
+.vac-date-div label {
+	font-size: 12px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.vac-date-div input {
+	background: transparent;
+	border: none;
+	color: #fff;
+	font-size: 13px;
+}
+
+/* media query */
+@media only screen and (max-width: 991px) {
+	.logoo img {
+		width: 223px;
+		margin-top: 24px;
+	}
+
+	.pform {
+		width: 100%;
+		overflow-x: hidden;
+	}
+
+	.res-input-g label {
+		padding: 5px 5px !important;
+		font-size: 13px !important;
+	}
+
+	label {
+		padding: 5px 10px;
+	}
+
+	.id-sec {
+		padding: 7px;
+	}
+
+	.img-upload img {
+		margin: 0px auto 17px;
+	}
+
+	.form-feilds label {
+		width: 29%;
+
+	}
+
+	.parent-form label {
+		font-size: 17px !important;
+	}
+
+	.form-feilds input[type="text"] {
+		width: 60%;
+	}
+
+	div.radio-with-Icon p.radioOption-Item label::after {
+		left: 11px;
+	}
+
+	.res-mb-0 {
+		margin-bottom: 0;
+	}
+
+	.form-feilds {
+		justify-content: flex-start;
+		gap: 30px;
+	}
+
+	.id-sec label {
+		font-size: 20px;
+	}
+}
+
+.vac-date-div {
+	position: relative;
+}
+
+.date-placeholder {
+	position: absolute;
+	right: 23px;
+	top: 50%;
+	color: #fff;
+	z-index: 99999;
+	transform: translateY(-50%);
+}
+
+.date_wrapper {
+	opacity: 1;
+	position: relative;
+	z-index: 999999999999;
+}
+
+.d-none {
+	display: none;
+}
+
+.pt-57 {
+	padding-top: 57px;
+}
+
+.vac-shape {
+	position: relative;
+	/* overflow: hidden; */
+}
+
+.vac-shape .img-1 {
+	position: absolute;
+	right: 77px;
+	/* overflow-x: hidden; */
+	width: 69px;
+}
+
+.vac-shape .img-2 {
+	position: relative;
+	right: -70px;
+	bottom: -16px;
+	/* overflow-x: hidden; */
+	width: 72px;
+}
+
+.other-services-sec {
+	background-color: #fff;
+}
+
+.other-services-sec h2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 11px;
+	font-size: 35px;
+	color: #fcbf13;
+	/* font-weight: 600; */
+	font-family: "Purple Smile";
+}
+
+.other-services-sec h2 img {
+	width: 42px;
+}
+
+.d-unset {
+	display: unset !important;
+}
+
+.InputGroup2 label {
+	display: flex;
+}
+
+.InputGroup2 label img {
+	width: 40px;
+}
+
+.service-grid {
+	display: flex;
+	justify-content: space-around;
+}
+
+.our-service label {
+	border: 2px solid #65c4ae80 !important;
+	color: #65c4ae !important;
+	font-size: 12px !important;
+	display: flex;
+	justify-content: flex-start;
+	gap: 12px;
+	font-family: "Montserrat Regular";
+}
+
+.our-service label img {
+	width: 27px;
+}
+
+.our-service input[type="radio"]:checked+label {
+	background-color: #65c4ae !important;
+	color: #ffffff !important;
+}
+
+.our-service input[type="radio"]:hover:not(:checked)+label {
+	background-color: #65c4ae !important;
+	color: #ffffff !important;
+}
+
+.other-s-shape {
+	position: relative;
+}
+
+.other-s-shape .img-1 {
+	position: relative;
+	right: -23px;
+	top: 17px;
+	/* -webkit-transform: scaleX(-1);
+	transform: scaleX(-1); */
+	width: 65px;
+}
+
+.other-s-shape .img-2 {
+	position: relative;
+	right: -28px;
+	/* top: 56%; */
+	/* -webkit-transform: scaleX(-1);
+	transform: scaleX(-1); */
+	width: 55px;
+}
+
+.pet-skin-sec h2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	line-height: 63px;
+	font-family: "Purple Smile";
+	color: #fcc00b;
+}
+
+.pet-skin-sec h2 img {
+	width: 59px;
+}
+
+.pet-skin-sec label {
+	display: flex;
+	gap: 12px;
+	justify-content: flex-start;
+	border: 2px solid #65c4ae80 !important;
+	color: #65c4ae !important;
+	font-size: 14px !important;
+	width: 100%;
+	font-family: "Montserrat Regular";
+}
+
+.pet-skin-sec label img {
+	width: 27px;
+}
+
+.pet-skin-sec input[type="radio"]:checked+label {
+	background-color: #65c4ae !important;
+	color: #ffffff !important;
+}
+
+.pet-skin-sec input[type="radio"]:hover:not(:checked)+label {
+	background-color: #65c4ae !important;
+	color: #ffffff !important;
+}
+
+.hair-size {
+	display: flex;
+}
+
+.hair-size label {
+	background: none;
+	border: none !important;
+	font-size: 9px !important;
+}
+
+.nails-sec label {
+	padding: 5px 41px !important;
+	font-size: 16px !important;
+}
+
+.nails-sec h2 img {
+	width: 54px;
+}
+
+.mood-bath h2 {
+	font-size: 22px;
+}
+
+.mood-bath label {
+	font-size: 16px !important;
+}
+
+.all-read-sec {
+	align-items: flex-start;
+	display: flex;
+	justify-content: flex-start;
+	gap: 12px;
+	margin-top: 15px;
+}
+
+.all-read-sec input {
+	width: 29px;
+	height: 26px;
+}
+
+.all-read-sec label {
+	border: none;
+	text-align: left;
+	width: 100%;
+	padding: 0;
+	color: #beb7b7;
+	font-family: "Montserrat Light";
+	font-weight: 500;
+}
+
+.parent-form h2 {
+	font-family: "Purple Smile";
+}
+
+.parent-form label {
+	font-size: 18px;
+	font-weight: normal;
+	text-align: left;
+	font-family: "Montserrat Regular";
+}
+
+.biglabel {
+	font-family: "Purple Smile";
+}
+
+.subheading span {
+	font-family: "Montserrat Light";
+}
+
+.nails-sec {
+	position: relative;
+}
+
+.nails-sec .shape-11 {
+	position: absolute;
+	display: block;
+	left: -5px;
+	top: 65px;
+}
+
+.nails-sec .shape-22 {
+	position: absolute;
+	display: block;
+	right: 45px;
+	top: 10px;
+}
+
+.nails-sec .shape-33 {
+	position: absolute;
+	display: block;
+	right: 14px;
+	bottom: -50px;
+}
+
+.square-radio {
+	width: 14px !important;
+	height: 14px !important;
+	border: 2px solid #000;
+	border-radius: 50%;
+	/* Make the square shape */
+	visibility: hidden;
+}
+
+.square-radio+label {
+	display: inline-block;
+	/* width: 35px; */
+	height: 35px;
+	margin-right: 6px;
+	/*background-color: #fff;*/
+	border: 2px solid #fff;
+	border-radius: 0;
+	/* Create a visual square around the hidden radio button */
+	cursor: pointer;
+}
+
+.square-radio:checked+label {
+	background-color: #000;
+	/* Change the background color of the label when the radio button is checked */
+}
+
+.otherservice:checked+label {
+	background-color: #65c4ae !important;
+	color: #ffffff !important;
+}
+
+.otherservice {
+	visibility: hidden;
+}
+
+.bg-yellow {
+	background-color: #fcbf13;
+}
+
+.toptab:checked+label {
+	background-color: #fcbf13 !important;
+	color: #fff !important;
+}
+
+.bg-none {
+	background: none !important;
+}
+
+@media only screen and (max-width: 991px) {
+	div.radio-with-Icon p.radioOption-Item label span {
+		font-size: 14px;
+	}
+
+	div.radio-with-Icon p.radioOption-Item label img {
+		padding: 10px 10px;
+		width: 40px;
+	}
+
+	div.radio-with-Icon p.radioOption-Item label::after {
+		left: 10px;
+		width: 40px !important;
+		height: 40px !important;
+	}
+
+	.vac-date-div {
+		align-items: center;
+	}
+
+	.rab-vac-sec input {
+		margin-left: 40px !important;
+	}
+
+	.vac-date-div label {
+		font-size: 10px;
+		margin-right: 0;
+		padding: 8px 4px !important;
+	}
+
+	.vac-date-div input {
+		margin-left: 0px !important;
+	}
+
+	.vac-date-div input {
+		font-size: 10px;
+	}
+
+	.date-placeholder {
+		right: 7px;
+		font-size: 10px;
+		top: 56%;
+	}
+
+	.pet-dp {
+		width: 185px;
+		padding-left: 44px;
+	}
+
+	.other-services-sec h2 {
+		font-size: 27px;
+	}
+
+	.other-s-shape .img-1 {
+		right: -20px;
+		top: 54px;
+	}
+
+	.other-s-shape .img-2 {
+		right: -98px;
+		top: -67px;
+	}
+
+	.pet-skin-sec h2 {
+		font-size: 11px;
+	}
+
+	.pet-skin-sec label {
+		gap: 8px;
+		font-size: 10px !important;
+	}
+
+	.our-service label {
+		font-size: 11px !important;
+		gap: 8px;
+	}
+
+	.hair-size label {
+		gap: 8px;
+		font-size: 8px !important;
+	}
+
+	.mood-bath h2 {
+		font-size: 17px !important;
+	}
+
+	.nails-sec .shape-22 {
+		left: 3px;
+		top: -54px;
+	}
+
+	.InputGroup label .daycare-img-1 {
+		width: 23px;
+	}
+
+	.InputGroup label .daycare-img-2 {
+		width: 23px;
+	}
+
+	.nails-sec .shape-11 {
+		position: absolute;
+		display: block;
+		left: 49px;
+		top: -19px;
+	}
+
+	.nails-sec .shape-33 {
+		bottom: 96px;
+	}
+}
+
+@media only screen and (max-width: 415px) {
+	.other-s-shape .img-2 {
+		right: -43px;
+		top: 6px;
+	}
+
+	.other-s-shape .img-1 {
+		right: -34px;
+		top: 10px;
+	}
+
+	.vac-shape .img-2 {
+		right: -10px;
+		position: absolute !important;
+	}
+
+	.rab-vac-sec input {
+		margin-left: 68px !important;
+	}
+
+	.vac-date-div input {
+		margin-left: 0px !important;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.other-s-shape .img-1 {
+		right: -20px;
+		top: 54px;
+	}
+
+	.other-s-shape .img-2 {
+		right: -90px;
+		top: -62px;
+	}
+	.img-upload .img-upload-pd{
+	    /*width:40%;*/
+	}
+	#preview2{
+	    margin:0;
+	}
+}
+
+input:focus {
+	outline: 1px solid #f6b90d !important;
+	border-color: #f6b90d;
+	/* box-shadow: 0 0 10px #f6b90d; */
+}
+
+.biglabel input[type="radio"]:checked+label {
+	background-color: none !important;
+	color: #ffffff;
+}
+
+.mt-5 {
+	margin-top: 5px !important;
+}
+
+.white-heading {
+	font-size: 27px;
+	font-family: "Purple Smile";
+	color: #fff;
+	text-align: center;
+}
+
+.duration-sec label {
+	color: #fff;
+	font-size: 21px;
+	font-family: "Montserrat Regular";
+	text-align: left;
+	font-weight: normal;
+}
+
+.duration-sec input {
+	background: #f5f7f9;
+	border: none;
+	padding: 3px 10px;
+	font-size: 19px;
+	color: #aba7a9;
+}
+
+.duration-sec h6 {
+	color: #fff;
+	font-size: 19px;
+	font-family: "Montserrat Regular";
+	text-align: left;
+	font-weight: normal;
+}
+
+.vet-info-sec label {
+	font-size: 19px;
+}
+
+.btn-active .daycare-img-22 {
+	width: 24px;
+}
+
+.feeding label {
+	font-size: 18px;
+}
+
+.duration-sec input[type="number"] {
+	background: #f5f7f9;
+	border: none;
+	padding: 3px 10px;
+	font-size: 19px;
+	width: 100%;
+	appearance: auto;
+}
+
+input[type="date"]:invalid::-webkit-datetime-edit {
+	color: #999;
+}
+
+.uploadig-hover img {
+	transition: 0.5s;
+}
+
+.uploadig-hover img:hover {
+	opacity: 0.5;
+}
+
+@media screen and (min-width: 771px) {
+	.InputGroup a {
+		padding: 7px 23px !important;
+	}
+
+	.InputGroup a:first-child {
+		padding: 6px 23px !important;
+	}
+
+	.InputGroup a:first-child img {
+		width: 27px;
+	}
+
+	.rab-container {
+		margin: 0 12px !important;
+	}
+
+	.duration-secinput input {
+		width: 62%;
+	}
+
+	.duration-secinput label {
+		padding: 5px 6px;
+	}
+
+	.top-header {
+		justify-content: center !important;
+	}
+
+	.vet-info-sec label {
+		/*padding: 5px 20px !important;*/
+		padding: 5px 0px !important;
+	}
+
+	.dekstop-footer img {
+		width: 40% !important;
+	}
+
+	body {
+		width: 600px !important;
+		display: block !important;
+		margin: 0 auto !important;
+		border: 1px solid #fcbf13;
+	}
+
+	.form-feilds label {
+		width: 34%;
+	}
+
+	div.radio-with-Icon p.radioOption-Item label::after {
+		width: 37px !important;
+		height: 36px !important;
+	}
+
+	div.radio-with-Icon p.radioOption-Item label img {
+		width: 39px;
+	}
+
+	div.radio-with-Icon p.radioOption-Item label span {
+		font-size: 18px;
+	}
+
+	.container {
+		width: 500px !important;
+	}
+
+	.rab-checkbox label {
+		padding: 5px 30px 5px 8px;
+	}
+
+	.vac-shape .img-2 {
+		right: -128px;
+		bottom: -14px;
+		width: 57px;
+	}
+
+	.vac-shape .img-1 {
+		right: 0px;
+		width: 49px;
+	}
+
+	.our-service label {
+		padding: 5px 17px;
+	}
+
+	.other-s-shape .img-1 {
+		right: -132px;
+		top: 10px;
+	}
+
+	.other-s-shape .img-2 {
+		right: -149px;
+	}
+
+	.mood-bath h2 {
+		font-size: 29px;
+	}
+
+	.nails-sec .shape-22 {
+		left: 11px;
+		top: -2px;
+	}
+
+	.nails-sec .shape-11 {
+		left: 32px;
+		top: -61px;
+	}
+
+	.dekstop-footer img {
+		width: 100% !important;
+	}
+
+	.pet-skin-sec label {
+		padding: 5px 12px;
+		text-align: left;
+	}
+
+	.nails-sec label {
+		padding: 5px 12px !important;
+	}
+
+	.top-header {
+		justify-content: flex-start !important;
+	}
+
+	.form-feilds input[type="text"] {
+		width: 58%;
+	}
+
+	.pt-57 {
+		padding-top: 0px;
+	}
+
+	.pet-age label {
+		width: 36% !important;
+	}
+
+	.pet-age input[type="text"] {
+		width: 30% !important;
+	}
+
+	.pet-age input[type="text"]::placeholder {
+		color: #8f8f8f !important;
+		opacity: 1;
+		/* Firefox */
+	}
+
+	.pet-age {
+		margin-right: 37px;
+		/*margin-left: 18px;*/
+	}
+
+	.form-text {
+		width: 61%;
+	}
+
+	.static-value {
+		right: 0px !important;
+	}
+
+	.rabies-vac-dkstp-mrgin {
+		margin-left: 29px !important;
+	}
+
+	div.radio-with-Icon p.radioOption-Item {
+		margin: 0px 6px;
+	}
+
+	.form-feilds {
+		justify-content: flex-start !important;
+	}
+
+	.img-upload-pd {
+		padding-left: 66px;
+	}
+
+	.vet-info-sec input[type="text"] {
+		width: 62%;
+	}
+
+}
+
+.form-text-2 {
+	position: relative;
+	width: 64%;
+}
+
+.form-text-2 input[type="text"] {
+	width: 88% !important;
+	padding-left: 41px;
+}
+
+.static-value-2 {
+	position: absolute;
+	left: -8px;
+	font-weight: bold;
+	font-size: 0.8em;
+	color: #8f8f8f !important;
+	top: 0px;
+	width: auto !important;
+}
+
+
+
+.password-container {
+	/* width: 400px; */
+	position: relative;
+}
+
+.password-container input[type="text"] {
+	box-sizing: border-box;
+}
+
+.fa-plus {
+	position: absolute;
+	top: 35%;
+	right: 4%;
+	cursor: pointer;
+	color: #fff;
+	background: #fcbf13;
+	padding: 3px;
+}
+
+.fa-plus:hover {
+	background: #65c4ae;
+}
+
+.pet-addon {
+	background: #fcc832;
+}
+
+.pet-addon .pbtn {
+	text-align: center;
+	/* padding-left: 24px; */
+	padding-bottom: 10px;
+}
+
+.pet-addon .pbtn p {
+	color: #ffffff;
+	font-weight: 500;
+	font-family: "Montserrat Regular";
+	margin-right: 1px;
+}
+
+.pet-addon .pbtn span span {
+	color: #fcc832;
+	font-weight: 500;
+	font-family: "Montserrat Regular";
+	margin-right: 1px;
+	background: #fff;
+	padding: 2px 5px;
+	cursor: pointer;
+}
+
+.pet-addon .pbtn span:hover {
+	text-decoration: none;
+	color: #65c4ae;
+}
+
+.form-text {
+	position: relative;
+}
+
+.form-text input[type="text"] {
+	width: 95% !important;
+}
+
+.static-value {
+	position: absolute;
+	right: 10px !important;
+	color: #8f8f8f !important;
+	top: 0px !important;
+	width: auto !important;
+	font-family: 'Montserrat Light' !important;
+}
+
+@media only screen and (max-width: 991px) {
+	.form-text-2 input[type="text"] {
+		width: 94% !important;
+		margin-left: 0px;
+	}
+}
+
+.date-time-sec label {
+	font-size: 18px !important;
+}
+
+.date-time-sec input {
+	width: 90%;
+}
+
+.daytime-chcekbox label {
+	padding: 5px 92px 5px 8px;
+}
+
+@media only screen and (max-width: 991px) {
+	.daytime-chcekbox {
+		margin-left: 33px !important;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.pet-age label {
+		width: 30% !important;
+	}
+
+	.weight-label {
+		width: 63%;
+	}
+
+	.pet-age input[type="text"] {
+		width: 26% !important;
+	}
+
+	.pet-age input[type="text"]::placeholder {
+		color: #bfc6d4;
+		opacity: 1;
+		/* Firefox */
+	}
+
+	.pet-age {
+		margin-right: 12px;
+	}
+
+	.radioOption-Item input[type="radio"]:checked+label .male-img-2 {
+		padding: 9px;
+	}
+
+	.facebook-label,
+	.instagram-label {
+		width: 29% !important;
+	}
+
+	.form-text-2 {
+		width: 61%;
+		margin-left: auto;
+	}
+
+	.checkboxReq ul li {
+		width: 100% !important;
+	}
+
+
+}
+
+.checkboxReq ul li {
+	width: 100% !important;
+}
+
+.error {
+	color: #f55626;
+}
+
+.parsley-error {
+	border-color: #f55626;
+}
+
+.parsley-errors-list {
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+
+.parsley-errors-list.filled {
+	display: block;
+	flex-basis: 100%;
+}
+
+.parsley-errors-list>li {
+	font-size: 13px;
+	list-style: none;
+	color: crimson;
+	margin-top: 5px;
+}
+
+.form-dtls div ul li {
+	margin-right: auto !important;
+	margin-left: inherit !important;
+}
+
+.vac-date-div ul {
+	position: absolute !important;
+	left: 0% !important;
+	bottom: -84% !important;
+	width: 100%;
+}
+
+.vac-date-div ul li {
+	width: 100% !important;
+}
+
+.nameField ul {
+	flex-basis: 78% !important;
+	margin-left: auto !important;
+}
+
+.fet_info_wrapper div ul li {
+	margin-left: inherit !important;
+	margin-right: auto !important;
+}
+
+.fet_info_wrapper .form-feilds {
+	padding: 0 45px !important;
+}
+
+.fet_info_wrapper.boarding-set-req div ul li {
+	margin-left: auto !important;
+	margin-right: inherit !important;
+}
+
+.btn-active .grom-img-2 {
+	display: block !important;
+}
+
+.btn-active .grom-img-1 {
+	display: none !important;
+	width: 26px !important;
+}
+
+.btn-active .boarding-img-2 {
+	display: block !important;
+	width: 26px !important;
+}
+
+.btn-active .boarding-img-1 {
+	display: none !important;
+	width: 23px !important;
+}
+
+.btn-active .daycare-img-2 {
+	display: block !important;
+	width: 23px !important;
+}
+
+.btn-active .daycare-img-1 {
+	display: none !important;
+}
+
+@media (min-width: 771px) and (max-width: 991px) {
+	.form-text {
+		width: 60% !important;
+	}
+
+	.fet_info_wrapper.boarding-set-req .form-feilds {
+		gap: 7px !important;
+	}
+
+	.duration-secinput input {
+		width: 62%;
+	}
+
+	.rab-checkbox label {
+		padding: 5px 11px 5px 8px !important;
+	}
+}
+
+
+
+@media (max-width: 700px) {
+	.form-text {
+		width: 64% !important;
+	}
+
+	.form-text-2 {
+		width: 64% !important;
+		margin-left: inherit !important;
+	}
+
+}
+
+@media (max-width: 429px) {
+	.form-text {
+		width: 60% !important;
+	}
+
+	.form-text-2 {
+		width: 62% !important;
+	}
+}
+
+.preview-image {
+	height: 150px;
+	width: auto;
+
+}
+
+.button-9 {
+	align-items: center;
+	background-clip: padding-box;
+	background-color: #65c4ae;
+	border: 1px solid transparent;
+	border-radius: 0.25rem;
+	box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+	box-sizing: border-box;
+	color: #fff;
+	cursor: pointer;
+	display: inline-flex;
+	font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	/* font-weight: 600; */
+	justify-content: center;
+	line-height: 1.25;
+	margin: 0;
+	/* min-height: 3rem; */
+	/* padding: calc(1rem - 1px) calc(3.5rem - 1px); */
+	padding: 5px;
+	position: relative;
+	text-decoration: none;
+	transition: all 250ms;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	vertical-align: baseline;
+	width: auto;
+	font-family: "Montserrat Regular";
+}
+
+.button-9:hover,
+.button-9:focus {
+	background-color: #519e8c;
+	box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-9:hover {
+	transform: translateY(-1px);
+}
+
+.button-9:active {
+	background-color: #c85000;
+	box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+	transform: translateY(0);
+}
+
+.st-flex{
+    display: flex;
+    gap: 15px !important;
+}
+.st-flex .rab-checkbox,
+.st-flex .img-upload.img-upload-pd{
+    width: 50%;
+}
+
+#file1{
+    position: absolute;
+        width: 1px;
+    height: 1px;
+
+    top: 50%;
+    opacity: 1 !important;
+}
